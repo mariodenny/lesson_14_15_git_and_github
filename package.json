@@ -1,0 +1,27 @@
+{
+  "name": "lesson13_14_git_and_github",
+  "version": "1.0.0",
+  "description": "1. Make sure you already setting your git to connect to the github\r ```shell\r git config --global user.name \"your_username\"\r git config --global user.email \"your_email\"\r ```\r 2. open vscode, terminal -> new terminal -> cmd (hit enter)\r 3. type git init\r ```shell\r git init\r ```\r 4. rename the branch to main\r ```shell\r git branch -m main\r ```\r 5. connect your git local and github using this command\r ```shell\r git remote add origin https://your-repository-url\r ```\r 6. stage all changes using\r ```shell\r git add .\r ```\r 7. give message before send it to github\r ```shell\r git commit -m \"your message\" // for example \"first commit\"\r ```\r 8. push your code using git push\r ```shell\r git push origin main\r ```\r ## How to start new project javascript\r 1. run this command \r ```shell\r npm init -y\r ```",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariodenny/lesson_14_15_git_and_github.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariodenny/lesson_14_15_git_and_github/issues"
+  },
+  "homepage": "https://github.com/mariodenny/lesson_14_15_git_and_github#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3",
+    "handlebars": "^4.7.9"
+  }
+}
