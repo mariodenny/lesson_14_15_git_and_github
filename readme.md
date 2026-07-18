@@ -25,3 +25,7 @@ git add .
 ```shell
 git commit -m "your message" // for example "first commit"
 ```
+8. push your code using git push
+```shell
+git push origin main
+```
