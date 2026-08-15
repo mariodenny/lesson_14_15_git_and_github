@@ -103,6 +103,7 @@ app.get("/db-test", async(req,res)=>{
         })
     }
 })
+
 app.listen(port, ()=>{
     console.log(`Server run on http://localhost:${port}`)
 })
