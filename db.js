@@ -15,7 +15,7 @@ const pool = mysql.createPool({
     queueLimit : 0,
     connectTimeout: 10000,
     ssl:{
-        ca: fs.readdirSync(
+        ca: fs.readFileSync(
         path.join(process.cwd(), 'ca.pem')  
         ),
         rejectUnauthorized:true,
